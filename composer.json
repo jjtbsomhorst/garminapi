@@ -1,0 +1,17 @@
+{
+    "require": {
+        "dawguk/php-garmin-connect": "^1.3",
+        "slim/slim": "4.0",
+        "slim/http": "^1.0",
+        "slim/psr7": "^1.0",
+        "php-di/php-di": "^6.0",
+        "mongodb/mongodb": "^1.7@dev",
+        "apix/log": "dev-master"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "jsomhorst\\garmin\\": ""
+        }
+    }
+}
