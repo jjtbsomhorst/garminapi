@@ -11,17 +11,18 @@ use Slim\Http\ServerRequest;
 class UserApiHandler extends ActivityApiHandler
 {
 
-    public function __construct()
-    {
-        parent::__construct();
-    }
-
     public static function addRoutes(App $app)
     {
         $app->get('/user',UserApiHandler::class.':getUser')->setName('getUser');
         $app->get('/user/devices',UserApiHandler::class.':getDevices');
         $app->get('/user/hrzones',UserApiHandler::class.':getHeartRateZones');
+        $app->post('/user/login',UserApiHandler::class.':doLogin');
     }
+
+    public function doLogin(ServerRequest $request, Response $response, array $args) : Response{
+        return $response->withStatus('403','Forbidden');
+    }
+
 
     public function getUser(ServerRequest $request, Response $response, array $args) :Response{
         $user = $this->garminClient->getUser();
@@ -37,6 +38,7 @@ class UserApiHandler extends ActivityApiHandler
         $hrZones = $this->garminClient->getHrZones();
         $response->getBody()->write($hrZones);
         return $response;
+
     }
 
 

@@ -1,3 +1,8 @@
-/settings/settings.php
+/config/settings.php
+/config/private.pem
+/config/public.pem
 /index.html
 /js/
+/.idea/
+/.idea/garmin.iml
+/.idea/php.xml

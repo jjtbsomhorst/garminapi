@@ -6,7 +6,8 @@
         "slim/psr7": "^1.0",
         "php-di/php-di": "^6.0",
         "mongodb/mongodb": "^1.7@dev",
-        "apix/log": "dev-master"
+        "apix/log": "dev-master",
+        "selective/config": "dev-master"
     },
     "minimum-stability": "dev",
     "autoload": {

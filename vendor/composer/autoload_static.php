@@ -8,6 +8,7 @@ class ComposerStaticInit52f214f94cdc446b3791aec2a0808007
 {
     public static $files = array (
         '7b11c4dc42b3b3023073cb14e519683c' => __DIR__ . '/..' . '/ralouphie/getallheaders/src/getallheaders.php',
+        '34122c0574b76bf21c9a8db62b5b9cf3' => __DIR__ . '/..' . '/cakephp/chronos/src/carbon_compat.php',
         '253c157292f75eb38082b5acb06f3f01' => __DIR__ . '/..' . '/nikic/fast-route/src/functions.php',
         '3a37ebac017bc098e9a86b35401e7a68' => __DIR__ . '/..' . '/mongodb/mongodb/src/functions.php',
         'bbf73f3db644d3dced353b837903e74c' => __DIR__ . '/..' . '/php-di/php-di/src/DI/functions.php',
@@ -24,6 +25,7 @@ class ComposerStaticInit52f214f94cdc446b3791aec2a0808007
             'Slim\\Psr7\\' => 10,
             'Slim\\Http\\' => 10,
             'Slim\\' => 5,
+            'Selective\\Config\\' => 17,
         ),
         'P' => 
         array (
@@ -51,6 +53,10 @@ class ComposerStaticInit52f214f94cdc446b3791aec2a0808007
         array (
             'DI\\' => 3,
         ),
+        'C' => 
+        array (
+            'Cake\\Chronos\\' => 13,
+        ),
         'A' => 
         array (
             'Apix\\Log\\' => 9,
@@ -77,6 +83,10 @@ class ComposerStaticInit52f214f94cdc446b3791aec2a0808007
         'Slim\\' => 
         array (
             0 => __DIR__ . '/..' . '/slim/slim/Slim',
+        ),
+        'Selective\\Config\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/selective/config/src',
         ),
         'Psr\\Log\\' => 
         array (
@@ -123,6 +133,10 @@ class ComposerStaticInit52f214f94cdc446b3791aec2a0808007
         'DI\\' => 
         array (
             0 => __DIR__ . '/..' . '/php-di/php-di/src/DI',
+        ),
+        'Cake\\Chronos\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/cakephp/chronos/src',
         ),
         'Apix\\Log\\' => 
         array (

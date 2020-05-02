@@ -22,13 +22,14 @@ use dawguk\GarminConnect\exceptions\AuthenticationException;
 use dawguk\GarminConnect\exceptions\UnexpectedResponseCodeException;
 use Exception;
 use http\Exception\UnexpectedValueException;
+use jsomhorst\garmin\Logger;
 
 class GarminConnect
 {
     const DATA_TYPE_TCX = 'tcx';
     const DATA_TYPE_GPX = 'gpx';
     const DATA_TYPE_GOOGLE_EARTH = 'kml';
-        
+
     /** @var bool if we should json_decode the response at anytime or not */
     private $decode = true;
     /**
@@ -68,9 +69,10 @@ class GarminConnect
         // If we can validate the cached auth, we don't need to do anything else
 
         if ($this->checkCookieAuth()) {
+            Logger::log('GarminConnect.log')->warning('Cookie auth found.');
             return;
         }
-
+        Logger::log('GarminConnect.log')->warning('No cookie auth found.');
         if (!isset($arrCredentials['password'])) {
             throw new Exception("Password credential missing");
         }

@@ -11,10 +11,6 @@ use Slim\Http\ServerRequest;
 
 class StatisticsApiHandler extends ActivityApiHandler
 {
-    public function __construct()
-    {
-        parent::__construct();
-    }
 
     public static function addRoutes(App $app)
     {

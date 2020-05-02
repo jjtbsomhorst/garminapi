@@ -71243,3 +71243,1080 @@ nect.garmin.com/modern/currentuser-service/user/info
 [2020-04-27 13:45:25] DEBUG Findparams: 
 [2020-04-27 13:45:25] DEBUG {"startTimeLocal":{"$gte":"2020-04-01","$lt":"2020-05-01"}}
 [2020-04-27 13:45:25] DEBUG []
+[2020-04-27 14:17:02] DEBUG Array
+(
+    [startDate] => 2020-04-01
+    [endDate] => 2020-05-01
+    [sortBy] => activityId
+    [sortOrder] => 1
+)
+
+[2020-04-27 14:17:02] DEBUG Findparams: 
+[2020-04-27 14:17:02] DEBUG {"startTimeLocal":{"$gte":"2020-04-01","$lt":"2020-05-01"}}
+[2020-04-27 14:17:02] DEBUG []
+[2020-04-27 14:17:02] DEBUG Array
+(
+    [limit] => 20
+)
+
+[2020-04-27 14:17:02] DEBUG Findparams: 
+[2020-04-27 14:17:02] DEBUG []
+[2020-04-27 14:17:02] DEBUG []
+[2020-04-27 17:37:59] DEBUG Array
+(
+    [startDate] => 2020-04-01
+    [endDate] => 2020-05-01
+    [sortBy] => activityId
+    [sortOrder] => 1
+)
+
+[2020-04-27 17:37:59] DEBUG Findparams: 
+[2020-04-27 17:37:59] DEBUG {"startTimeLocal":{"$gte":"2020-04-01","$lt":"2020-05-01"}}
+[2020-04-27 17:37:59] DEBUG []
+[2020-04-27 17:38:01] DEBUG Array
+(
+    [limit] => 20
+)
+
+[2020-04-27 17:38:01] DEBUG Findparams: 
+[2020-04-27 17:38:01] DEBUG []
+[2020-04-27 17:38:01] DEBUG []
+[2020-04-27 17:38:03] DEBUG Array
+(
+    [startDate] => 2020-04-01
+    [endDate] => 2020-05-01
+    [sortBy] => activityId
+    [sortOrder] => 1
+)
+
+[2020-04-27 17:38:03] DEBUG Findparams: 
+[2020-04-27 17:38:03] DEBUG {"startTimeLocal":{"$gte":"2020-04-01","$lt":"2020-05-01"}}
+[2020-04-27 17:38:03] DEBUG []
+[2020-04-27 17:38:03] DEBUG Array
+(
+    [limit] => 20
+)
+
+[2020-04-27 17:38:03] DEBUG Findparams: 
+[2020-04-27 17:38:03] DEBUG []
+[2020-04-27 17:38:03] DEBUG []
+[2020-04-27 17:42:04] DEBUG Array
+(
+    [limit] => 20
+    [offset] => 20
+)
+
+[2020-04-27 17:42:04] DEBUG Findparams: 
+[2020-04-27 17:42:04] DEBUG []
+[2020-04-27 17:42:04] DEBUG []
+[2020-04-27 17:46:30] DEBUG Array
+(
+    [startDate] => 2020-04-01
+    [endDate] => 2020-05-01
+    [sortBy] => activityId
+    [sortOrder] => 1
+)
+
+[2020-04-27 17:46:30] DEBUG Findparams: 
+[2020-04-27 17:46:30] DEBUG {"startTimeLocal":{"$gte":"2020-04-01","$lt":"2020-05-01"}}
+[2020-04-27 17:46:30] DEBUG []
+[2020-04-27 17:46:30] DEBUG Array
+(
+    [limit] => 20
+)
+
+[2020-04-27 17:46:30] DEBUG Findparams: 
+[2020-04-27 17:46:30] DEBUG []
+[2020-04-27 17:46:30] DEBUG []
+[2020-04-27 17:47:56] DEBUG Array
+(
+    [limit] => 20
+    [offset] => 20
+)
+
+[2020-04-27 17:47:56] DEBUG Findparams: 
+[2020-04-27 17:47:56] DEBUG []
+[2020-04-27 17:47:56] DEBUG []
+[2020-04-27 17:48:57] DEBUG Array
+(
+    [limit] => 20
+    [offset] => 0
+)
+
+[2020-04-27 17:48:57] DEBUG Findparams: 
+[2020-04-27 17:48:57] DEBUG []
+[2020-04-27 17:48:57] DEBUG []
+[2020-04-27 17:49:04] DEBUG Array
+(
+    [limit] => 20
+)
+
+[2020-04-27 17:49:04] DEBUG Findparams: 
+[2020-04-27 17:49:04] DEBUG []
+[2020-04-27 17:49:04] DEBUG []
+[2020-04-27 17:49:04] DEBUG Array
+(
+    [startDate] => 2020-04-01
+    [endDate] => 2020-05-01
+    [sortBy] => activityId
+    [sortOrder] => 1
+)
+
+[2020-04-27 17:49:04] DEBUG Findparams: 
+[2020-04-27 17:49:04] DEBUG {"startTimeLocal":{"$gte":"2020-04-01","$lt":"2020-05-01"}}
+[2020-04-27 17:49:04] DEBUG []
+[2020-04-27 17:50:35] DEBUG Array
+(
+    [limit] => 20
+    [workout] => 200706139
+)
+
+[2020-04-27 17:50:35] DEBUG Findparams: 
+[2020-04-27 17:50:35] DEBUG {"workoutId":200706139}
+[2020-04-27 17:50:35] DEBUG []
+[2020-04-27 17:50:40] DEBUG Array
+(
+    [limit] => 20
+    [workout] => 186034782
+)
+
+[2020-04-27 17:50:40] DEBUG Findparams: 
+[2020-04-27 17:50:40] DEBUG {"workoutId":186034782}
+[2020-04-27 17:50:40] DEBUG []
+[2020-04-27 17:50:48] DEBUG Array
+(
+    [limit] => 20
+    [workout] => 199305503
+)
+
+[2020-04-27 17:50:48] DEBUG Findparams: 
+[2020-04-27 17:50:48] DEBUG {"workoutId":199305503}
+[2020-04-27 17:50:48] DEBUG []
+[2020-04-27 17:50:59] DEBUG Array
+(
+    [limit] => 20
+    [workout] => 145139022
+)
+
+[2020-04-27 17:50:59] DEBUG Findparams: 
+[2020-04-27 17:50:59] DEBUG {"workoutId":145139022}
+[2020-04-27 17:50:59] DEBUG []
+[2020-04-27 17:55:26] DEBUG Array
+(
+    [limit] => 20
+    [splits] => 1500
+)
+
+[2020-04-27 17:55:26] DEBUG Findparams: 
+[2020-04-27 17:55:26] DEBUG {"activityId":{"$in":[4590016524,4488081604,2757146152,2741873756,2721870614,2477209619,2474729651,4834112547]}}
+[2020-04-27 17:55:26] DEBUG {"lapDTOs.distance":{"$eq":1500}}
+[2020-04-27 17:55:52] DEBUG Array
+(
+    [limit] => 20
+    [splits] => 1500
+    [workout] => 100784198
+)
+
+[2020-04-27 17:55:52] DEBUG Findparams: 
+[2020-04-27 17:55:52] DEBUG {"workoutId":100784198,"activityId":{"$in":[4590016524,4488081604,2757146152,2741873756,2721870614,2477209619,2474729651,4834112547]}}
+[2020-04-27 17:55:52] DEBUG {"lapDTOs.distance":{"$eq":1500}}
+[2020-04-27 17:58:31] DEBUG Array
+(
+    [limit] => 20
+    [startDate] => 2018-01-28
+    [endDate] => 2018-01-28
+)
+
+[2020-04-27 17:58:31] DEBUG Findparams: 
+[2020-04-27 17:58:31] DEBUG {"startTimeLocal":{"$gte":"2018-01-28","$lt":"2018-01-28"}}
+[2020-04-27 17:58:31] DEBUG []
+[2020-04-27 17:58:36] DEBUG Array
+(
+    [limit] => 20
+    [startDate] => 2018-01-27
+    [endDate] => 2018-01-28
+)
+
+[2020-04-27 17:58:36] DEBUG Findparams: 
+[2020-04-27 17:58:36] DEBUG {"startTimeLocal":{"$gte":"2018-01-27","$lt":"2018-01-28"}}
+[2020-04-27 17:58:36] DEBUG []
+[2020-04-27 17:58:42] DEBUG Array
+(
+    [limit] => 20
+    [startDate] => 2018-01-27
+    [endDate] => 2018-01-29
+)
+
+[2020-04-27 17:58:42] DEBUG Findparams: 
+[2020-04-27 17:58:42] DEBUG {"startTimeLocal":{"$gte":"2018-01-27","$lt":"2018-01-29"}}
+[2020-04-27 17:58:42] DEBUG []
+[2020-04-27 17:58:54] DEBUG Array
+(
+    [limit] => 20
+    [startDate] => 2018-01-20
+    [endDate] => 2018-02-01
+)
+
+[2020-04-27 17:58:54] DEBUG Findparams: 
+[2020-04-27 17:58:54] DEBUG {"startTimeLocal":{"$gte":"2018-01-20","$lt":"2018-02-01"}}
+[2020-04-27 17:58:54] DEBUG []
+[2020-04-27 17:59:29] DEBUG Array
+(
+    [limit] => 20
+    [startDate] => 2020-01-20
+    [endDate] => 2020-02-01
+)
+
+[2020-04-27 17:59:29] DEBUG Findparams: 
+[2020-04-27 17:59:29] DEBUG {"startTimeLocal":{"$gte":"2020-01-20","$lt":"2020-02-01"}}
+[2020-04-27 17:59:29] DEBUG []
+[2020-04-27 17:59:39] DEBUG Array
+(
+    [limit] => 20
+)
+
+[2020-04-27 17:59:39] DEBUG Findparams: 
+[2020-04-27 17:59:39] DEBUG []
+[2020-04-27 17:59:39] DEBUG []
+[2020-04-27 17:59:39] DEBUG Array
+(
+    [startDate] => 2020-04-01
+    [endDate] => 2020-05-01
+    [sortBy] => activityId
+    [sortOrder] => 1
+)
+
+[2020-04-27 17:59:39] DEBUG Findparams: 
+[2020-04-27 17:59:39] DEBUG {"startTimeLocal":{"$gte":"2020-04-01","$lt":"2020-05-01"}}
+[2020-04-27 17:59:39] DEBUG []
+[2020-04-27 17:59:54] DEBUG Array
+(
+    [limit] => 20
+    [startDate] => 2020-01-28
+    [endDate] => 2020-01-28
+)
+
+[2020-04-27 17:59:54] DEBUG Findparams: 
+[2020-04-27 17:59:54] DEBUG {"startTimeLocal":{"$gte":"2020-01-28","$lt":"2020-01-28"}}
+[2020-04-27 17:59:54] DEBUG []
+[2020-04-27 18:00:02] DEBUG Array
+(
+    [limit] => 20
+    [startDate] => 2020-01-28
+    [endDate] => 2020-01-29
+)
+
+[2020-04-27 18:00:02] DEBUG Findparams: 
+[2020-04-27 18:00:02] DEBUG {"startTimeLocal":{"$gte":"2020-01-28","$lt":"2020-01-29"}}
+[2020-04-27 18:00:02] DEBUG []
+[2020-04-27 18:03:50] DEBUG Array
+(
+    [limit] => 20
+)
+
+[2020-04-27 18:03:50] DEBUG Findparams: 
+[2020-04-27 18:03:50] DEBUG []
+[2020-04-27 18:03:50] DEBUG []
+[2020-04-27 18:03:50] DEBUG Array
+(
+    [startDate] => 2020-04-01
+    [endDate] => 2020-05-01
+    [sortBy] => activityId
+    [sortOrder] => 1
+)
+
+[2020-04-27 18:03:50] DEBUG Findparams: 
+[2020-04-27 18:03:50] DEBUG {"startTimeLocal":{"$gte":"2020-04-01","$lt":"2020-05-01"}}
+[2020-04-27 18:03:50] DEBUG []
+[2020-04-27 18:04:06] DEBUG Array
+(
+    [limit] => 20
+)
+
+[2020-04-27 18:04:06] DEBUG Findparams: 
+[2020-04-27 18:04:06] DEBUG []
+[2020-04-27 18:04:06] DEBUG []
+[2020-04-27 18:04:06] DEBUG Array
+(
+    [startDate] => 2020-04-01
+    [endDate] => 2020-05-01
+    [sortBy] => activityId
+    [sortOrder] => 1
+)
+
+[2020-04-27 18:04:06] DEBUG Findparams: 
+[2020-04-27 18:04:06] DEBUG {"startTimeLocal":{"$gte":"2020-04-01","$lt":"2020-05-01"}}
+[2020-04-27 18:04:06] DEBUG []
+[2020-04-27 18:04:30] DEBUG Array
+(
+    [limit] => 20
+    [workout] => 186034782
+)
+
+[2020-04-27 18:04:30] DEBUG Findparams: 
+[2020-04-27 18:04:30] DEBUG {"workoutId":186034782}
+[2020-04-27 18:04:30] DEBUG []
+[2020-04-27 18:09:42] DEBUG Array
+(
+    [limit] => 20
+    [startDate] => 2017-01-01
+    [endDate] => 2018-01-01
+)
+
+[2020-04-27 18:09:42] DEBUG Findparams: 
+[2020-04-27 18:09:42] DEBUG {"startTimeLocal":{"$gte":"2017-01-01","$lt":"2018-01-01"}}
+[2020-04-27 18:09:42] DEBUG []
+[2020-04-27 18:09:58] DEBUG Array
+(
+    [limit] => 20
+    [startDate] => 2017-01-01
+    [endDate] => 2018-01-01
+    [offset] => 20
+)
+
+[2020-04-27 18:09:58] DEBUG Findparams: 
+[2020-04-27 18:09:58] DEBUG {"startTimeLocal":{"$gte":"2017-01-01","$lt":"2018-01-01"}}
+[2020-04-27 18:09:58] DEBUG []
+[2020-04-27 18:18:27] DEBUG Array
+(
+    [startDate] => 2020-03-01
+    [endDate] => 2020-04-01
+    [sortBy] => activityId
+    [sortOrder] => 1
+)
+
+[2020-04-27 18:18:27] DEBUG Findparams: 
+[2020-04-27 18:18:27] DEBUG {"startTimeLocal":{"$gte":"2020-03-01","$lt":"2020-04-01"}}
+[2020-04-27 18:18:27] DEBUG []
+[2020-05-01 21:39:33] DEBUG Array
+(
+    [limit] => 20
+)
+
+[2020-05-01 21:39:33] DEBUG Findparams: 
+[2020-05-01 21:39:33] DEBUG []
+[2020-05-01 21:39:33] DEBUG []
+[2020-05-01 21:39:33] DEBUG Array
+(
+    [startDate] => 2020-05-01
+    [endDate] => 2020-06-01
+    [sortBy] => activityId
+    [sortOrder] => 1
+)
+
+[2020-05-01 21:39:33] DEBUG Findparams: 
+[2020-05-01 21:39:33] DEBUG {"startTimeLocal":{"$gte":"2020-05-01","$lt":"2020-06-01"}}
+[2020-05-01 21:39:33] DEBUG []
+[2020-05-02 09:53:04] DEBUG Array
+(
+    [startDate] => 2020-05-01
+    [endDate] => 2020-06-01
+    [sortBy] => activityId
+    [sortOrder] => 1
+)
+
+[2020-05-02 09:53:04] DEBUG Findparams: 
+[2020-05-02 09:53:04] DEBUG {"startTimeLocal":{"$gte":"2020-05-01","$lt":"2020-06-01"}}
+[2020-05-02 09:53:04] DEBUG []
+[2020-05-02 09:53:12] DEBUG Array
+(
+    [startDate] => 2020-05-01
+    [endDate] => 2020-06-01
+    [sortBy] => activityId
+    [sortOrder] => 1
+)
+
+[2020-05-02 09:53:12] DEBUG Findparams: 
+[2020-05-02 09:53:12] DEBUG {"startTimeLocal":{"$gte":"2020-05-01","$lt":"2020-06-01"}}
+[2020-05-02 09:53:12] DEBUG []
+[2020-05-02 09:53:13] DEBUG Array
+(
+    [limit] => 20
+)
+
+[2020-05-02 09:53:13] DEBUG Findparams: 
+[2020-05-02 09:53:13] DEBUG []
+[2020-05-02 09:53:13] DEBUG []
+[2020-05-02 09:53:17] DEBUG Array
+(
+    [limit] => 20
+)
+
+[2020-05-02 09:53:17] DEBUG Findparams: 
+[2020-05-02 09:53:17] DEBUG []
+[2020-05-02 09:53:17] DEBUG []
+[2020-05-02 09:53:33] DEBUG Array
+(
+    [limit] => 20
+)
+
+[2020-05-02 09:53:33] DEBUG Findparams: 
+[2020-05-02 09:53:33] DEBUG []
+[2020-05-02 09:53:33] DEBUG []
+[2020-05-02 09:53:33] DEBUG Array
+(
+    [startDate] => 2020-05-01
+    [endDate] => 2020-06-01
+    [sortBy] => activityId
+    [sortOrder] => 1
+)
+
+[2020-05-02 09:53:33] DEBUG Findparams: 
+[2020-05-02 09:53:33] DEBUG {"startTimeLocal":{"$gte":"2020-05-01","$lt":"2020-06-01"}}
+[2020-05-02 09:53:33] DEBUG []
+[2020-05-02 09:59:09] DEBUG Array
+(
+    [startDate] => 2020-05-01
+    [endDate] => 2020-06-01
+    [sortBy] => activityId
+    [sortOrder] => 1
+)
+
+[2020-05-02 09:59:09] DEBUG Findparams: 
+[2020-05-02 09:59:09] DEBUG {"startTimeLocal":{"$gte":"2020-05-01","$lt":"2020-06-01"}}
+[2020-05-02 09:59:09] DEBUG []
+[2020-05-02 09:59:09] DEBUG Array
+(
+    [limit] => 20
+)
+
+[2020-05-02 09:59:09] DEBUG Findparams: 
+[2020-05-02 09:59:09] DEBUG []
+[2020-05-02 09:59:09] DEBUG []
+[2020-05-02 13:27:19] DEBUG Array
+(
+    [limit] => 50
+    [offset] => 20
+)
+
+[2020-05-02 13:27:19] DEBUG Findparams: 
+[2020-05-02 13:27:19] DEBUG []
+[2020-05-02 13:27:19] DEBUG []
+[2020-05-02 13:28:11] DEBUG Array
+(
+    [limit] => 20
+)
+
+[2020-05-02 13:28:11] DEBUG Findparams: 
+[2020-05-02 13:28:11] DEBUG []
+[2020-05-02 13:28:11] DEBUG []
+[2020-05-02 13:28:11] DEBUG Array
+(
+    [startDate] => 2020-05-01
+    [endDate] => 2020-06-01
+    [sortBy] => activityId
+    [sortOrder] => 1
+)
+
+[2020-05-02 13:28:11] DEBUG Findparams: 
+[2020-05-02 13:28:11] DEBUG {"startTimeLocal":{"$gte":"2020-05-01","$lt":"2020-06-01"}}
+[2020-05-02 13:28:11] DEBUG []
+[2020-05-02 13:33:07] DEBUG Array
+(
+    [limit] => 20
+)
+
+[2020-05-02 13:33:07] DEBUG Findparams: 
+[2020-05-02 13:33:07] DEBUG []
+[2020-05-02 13:33:07] DEBUG []
+[2020-05-02 13:33:07] DEBUG Array
+(
+    [startDate] => 2020-05-01
+    [endDate] => 2020-06-01
+    [sortBy] => activityId
+    [sortOrder] => 1
+)
+
+[2020-05-02 13:33:07] DEBUG Findparams: 
+[2020-05-02 13:33:07] DEBUG {"startTimeLocal":{"$gte":"2020-05-01","$lt":"2020-06-01"}}
+[2020-05-02 13:33:07] DEBUG []
+[2020-05-02 13:38:08] DEBUG Array
+(
+    [limit] => 20
+)
+
+[2020-05-02 13:38:08] DEBUG Findparams: 
+[2020-05-02 13:38:08] DEBUG []
+[2020-05-02 13:38:08] DEBUG []
+[2020-05-02 13:38:08] DEBUG Array
+(
+    [startDate] => 2020-05-01
+    [endDate] => 2020-06-01
+    [sortBy] => activityId
+    [sortOrder] => 1
+)
+
+[2020-05-02 13:38:09] DEBUG Findparams: 
+[2020-05-02 13:38:09] DEBUG {"startTimeLocal":{"$gte":"2020-05-01","$lt":"2020-06-01"}}
+[2020-05-02 13:38:09] DEBUG []
+[2020-05-02 13:38:12] DEBUG Array
+(
+    [startDate] => 2020-04-01
+    [endDate] => 2020-05-01
+    [sortBy] => activityId
+    [sortOrder] => 1
+)
+
+[2020-05-02 13:38:12] DEBUG Findparams: 
+[2020-05-02 13:38:12] DEBUG {"startTimeLocal":{"$gte":"2020-04-01","$lt":"2020-05-01"}}
+[2020-05-02 13:38:12] DEBUG []
+[2020-05-02 14:36:24] DEBUG Array
+(
+    [limit] => 20
+)
+
+[2020-05-02 14:36:24] DEBUG Findparams: 
+[2020-05-02 14:36:24] DEBUG []
+[2020-05-02 14:36:24] DEBUG []
+[2020-05-02 14:36:31] DEBUG Array
+(
+    [limit] => 20
+)
+
+[2020-05-02 14:36:31] DEBUG Findparams: 
+[2020-05-02 14:36:31] DEBUG []
+[2020-05-02 14:36:31] DEBUG []
+[2020-05-02 14:36:32] DEBUG Array
+(
+    [startDate] => 2020-05-01
+    [endDate] => 2020-06-01
+    [sortBy] => activityId
+    [sortOrder] => 1
+)
+
+[2020-05-02 14:36:32] DEBUG Findparams: 
+[2020-05-02 14:36:32] DEBUG {"startTimeLocal":{"$gte":"2020-05-01","$lt":"2020-06-01"}}
+[2020-05-02 14:36:32] DEBUG []
+[2020-05-02 14:39:55] DEBUG Array
+(
+    [limit] => 20
+    [offset] => 20
+)
+
+[2020-05-02 14:39:55] DEBUG Findparams: 
+[2020-05-02 14:39:55] DEBUG []
+[2020-05-02 14:39:55] DEBUG []
+[2020-05-02 14:39:56] DEBUG Array
+(
+    [limit] => 20
+    [offset] => 0
+)
+
+[2020-05-02 14:39:56] DEBUG Findparams: 
+[2020-05-02 14:39:56] DEBUG []
+[2020-05-02 14:39:56] DEBUG []
+[2020-05-02 14:39:58] DEBUG Array
+(
+    [limit] => 20
+    [offset] => 40
+)
+
+[2020-05-02 14:39:58] DEBUG Findparams: 
+[2020-05-02 14:39:58] DEBUG []
+[2020-05-02 14:39:58] DEBUG []
+[2020-05-02 14:40:05] DEBUG Array
+(
+    [limit] => 20
+    [offset] => 60
+)
+
+[2020-05-02 14:40:05] DEBUG Findparams: 
+[2020-05-02 14:40:05] DEBUG []
+[2020-05-02 14:40:05] DEBUG []
+[2020-05-02 14:40:07] DEBUG Array
+(
+    [limit] => 20
+    [offset] => 80
+)
+
+[2020-05-02 14:40:07] DEBUG Findparams: 
+[2020-05-02 14:40:07] DEBUG []
+[2020-05-02 14:40:07] DEBUG []
+[2020-05-02 14:40:12] DEBUG Array
+(
+    [limit] => 20
+    [offset] => 100
+)
+
+[2020-05-02 14:40:12] DEBUG Findparams: 
+[2020-05-02 14:40:12] DEBUG []
+[2020-05-02 14:40:12] DEBUG []
+[2020-05-02 14:43:27] DEBUG Array
+(
+    [limit] => 20
+    [offset] => 100
+)
+
+[2020-05-02 14:43:27] DEBUG Findparams: 
+[2020-05-02 14:43:27] DEBUG []
+[2020-05-02 14:43:27] DEBUG []
+[2020-05-02 14:43:53] DEBUG Array
+(
+    [limit] => 20
+)
+
+[2020-05-02 14:43:53] DEBUG Findparams: 
+[2020-05-02 14:43:53] DEBUG []
+[2020-05-02 14:43:53] DEBUG []
+[2020-05-02 14:43:53] DEBUG Array
+(
+    [startDate] => 2020-05-01
+    [endDate] => 2020-06-01
+    [sortBy] => activityId
+    [sortOrder] => 1
+)
+
+[2020-05-02 14:43:53] DEBUG Findparams: 
+[2020-05-02 14:43:53] DEBUG {"startTimeLocal":{"$gte":"2020-05-01","$lt":"2020-06-01"}}
+[2020-05-02 14:43:53] DEBUG []
+[2020-05-02 14:46:47] DEBUG Array
+(
+    [limit] => 20
+)
+
+[2020-05-02 14:46:47] DEBUG Findparams: 
+[2020-05-02 14:46:47] DEBUG []
+[2020-05-02 14:46:47] DEBUG []
+[2020-05-02 14:49:16] DEBUG Array
+(
+    [limit] => 20
+    [offset] => 20
+)
+
+[2020-05-02 14:49:16] DEBUG Findparams: 
+[2020-05-02 14:49:16] DEBUG []
+[2020-05-02 14:49:16] DEBUG []
+[2020-05-02 14:49:17] DEBUG Array
+(
+    [limit] => 20
+    [offset] => 40
+)
+
+[2020-05-02 14:49:17] DEBUG Findparams: 
+[2020-05-02 14:49:17] DEBUG []
+[2020-05-02 14:49:17] DEBUG []
+[2020-05-02 14:49:18] DEBUG Array
+(
+    [limit] => 20
+    [offset] => 60
+)
+
+[2020-05-02 14:49:18] DEBUG Findparams: 
+[2020-05-02 14:49:18] DEBUG []
+[2020-05-02 14:49:18] DEBUG []
+[2020-05-02 14:49:22] DEBUG Array
+(
+    [limit] => 20
+    [offset] => 0
+)
+
+[2020-05-02 14:49:22] DEBUG Findparams: 
+[2020-05-02 14:49:22] DEBUG []
+[2020-05-02 14:49:22] DEBUG []
+[2020-05-02 14:49:27] DEBUG Array
+(
+    [limit] => 20
+    [offset] => 0
+    [workout] => 200706139
+)
+
+[2020-05-02 14:49:27] DEBUG Findparams: 
+[2020-05-02 14:49:27] DEBUG {"workoutId":200706139}
+[2020-05-02 14:49:27] DEBUG []
+[2020-05-02 14:49:44] DEBUG Array
+(
+    [limit] => 20
+)
+
+[2020-05-02 14:49:44] DEBUG Findparams: 
+[2020-05-02 14:49:44] DEBUG []
+[2020-05-02 14:49:44] DEBUG []
+[2020-05-02 14:49:44] DEBUG Array
+(
+    [startDate] => 2020-05-01
+    [endDate] => 2020-06-01
+    [sortBy] => activityId
+    [sortOrder] => 1
+)
+
+[2020-05-02 14:49:44] DEBUG Findparams: 
+[2020-05-02 14:49:44] DEBUG {"startTimeLocal":{"$gte":"2020-05-01","$lt":"2020-06-01"}}
+[2020-05-02 14:49:44] DEBUG []
+[2020-05-02 14:49:55] DEBUG Array
+(
+    [limit] => 20
+    [offset] => 20
+)
+
+[2020-05-02 14:49:55] DEBUG Findparams: 
+[2020-05-02 14:49:55] DEBUG []
+[2020-05-02 14:49:55] DEBUG []
+[2020-05-02 14:49:56] DEBUG Array
+(
+    [limit] => 20
+    [offset] => 40
+)
+
+[2020-05-02 14:49:56] DEBUG Findparams: 
+[2020-05-02 14:49:56] DEBUG []
+[2020-05-02 14:49:56] DEBUG []
+[2020-05-02 14:49:57] DEBUG Array
+(
+    [limit] => 20
+    [offset] => 60
+)
+
+[2020-05-02 14:49:57] DEBUG Findparams: 
+[2020-05-02 14:49:57] DEBUG []
+[2020-05-02 14:49:57] DEBUG []
+[2020-05-02 14:49:58] DEBUG Array
+(
+    [limit] => 20
+    [offset] => 80
+)
+
+[2020-05-02 14:49:58] DEBUG Findparams: 
+[2020-05-02 14:49:58] DEBUG []
+[2020-05-02 14:49:58] DEBUG []
+[2020-05-02 14:49:58] DEBUG Array
+(
+    [limit] => 20
+    [offset] => 100
+)
+
+[2020-05-02 14:49:58] DEBUG Findparams: 
+[2020-05-02 14:49:58] DEBUG []
+[2020-05-02 14:49:58] DEBUG []
+[2020-05-02 14:49:58] DEBUG Array
+(
+    [limit] => 20
+    [offset] => 120
+)
+
+[2020-05-02 14:49:58] DEBUG Findparams: 
+[2020-05-02 14:49:58] DEBUG []
+[2020-05-02 14:49:58] DEBUG []
+[2020-05-02 14:49:58] DEBUG Array
+(
+    [limit] => 20
+    [offset] => 140
+)
+
+[2020-05-02 14:49:58] DEBUG Findparams: 
+[2020-05-02 14:49:58] DEBUG []
+[2020-05-02 14:49:58] DEBUG []
+[2020-05-02 14:49:59] DEBUG Array
+(
+    [limit] => 20
+    [offset] => 160
+)
+
+[2020-05-02 14:49:59] DEBUG Findparams: 
+[2020-05-02 14:49:59] DEBUG []
+[2020-05-02 14:49:59] DEBUG []
+[2020-05-02 14:49:59] DEBUG Array
+(
+    [limit] => 20
+    [offset] => 180
+)
+
+[2020-05-02 14:49:59] DEBUG Findparams: 
+[2020-05-02 14:49:59] DEBUG []
+[2020-05-02 14:49:59] DEBUG []
+[2020-05-02 14:49:59] DEBUG Array
+(
+    [limit] => 20
+    [offset] => 200
+)
+
+[2020-05-02 14:49:59] DEBUG Findparams: 
+[2020-05-02 14:49:59] DEBUG []
+[2020-05-02 14:49:59] DEBUG []
+[2020-05-02 14:49:59] DEBUG Array
+(
+    [limit] => 20
+    [offset] => 220
+)
+
+[2020-05-02 14:49:59] DEBUG Findparams: 
+[2020-05-02 14:49:59] DEBUG []
+[2020-05-02 14:49:59] DEBUG []
+[2020-05-02 14:49:59] DEBUG Array
+(
+    [limit] => 20
+    [offset] => 240
+)
+
+[2020-05-02 14:49:59] DEBUG Findparams: 
+[2020-05-02 14:49:59] DEBUG []
+[2020-05-02 14:49:59] DEBUG []
+[2020-05-02 14:49:59] DEBUG Array
+(
+    [limit] => 20
+    [offset] => 260
+)
+
+[2020-05-02 14:49:59] DEBUG Findparams: 
+[2020-05-02 14:49:59] DEBUG []
+[2020-05-02 14:50:00] DEBUG []
+[2020-05-02 14:50:00] DEBUG Array
+(
+    [limit] => 20
+    [offset] => 280
+)
+
+[2020-05-02 14:50:00] DEBUG Findparams: 
+[2020-05-02 14:50:00] DEBUG []
+[2020-05-02 14:50:00] DEBUG []
+[2020-05-02 14:50:00] DEBUG Array
+(
+    [limit] => 20
+    [offset] => 300
+)
+
+[2020-05-02 14:50:00] DEBUG Findparams: 
+[2020-05-02 14:50:00] DEBUG []
+[2020-05-02 14:50:00] DEBUG []
+[2020-05-02 14:50:00] DEBUG Array
+(
+    [limit] => 20
+    [offset] => 320
+)
+
+[2020-05-02 14:50:00] DEBUG Findparams: 
+[2020-05-02 14:50:00] DEBUG []
+[2020-05-02 14:50:00] DEBUG []
+[2020-05-02 14:50:00] DEBUG Array
+(
+    [limit] => 20
+    [offset] => 340
+)
+
+[2020-05-02 14:50:00] DEBUG Findparams: 
+[2020-05-02 14:50:00] DEBUG []
+[2020-05-02 14:50:00] DEBUG []
+[2020-05-02 14:50:00] DEBUG Array
+(
+    [limit] => 20
+    [offset] => 380
+)
+
+[2020-05-02 14:50:00] DEBUG Findparams: 
+[2020-05-02 14:50:00] DEBUG []
+[2020-05-02 14:50:00] DEBUG []
+[2020-05-02 14:50:01] DEBUG Array
+(
+    [limit] => 20
+    [offset] => 400
+)
+
+[2020-05-02 14:50:01] DEBUG Findparams: 
+[2020-05-02 14:50:01] DEBUG []
+[2020-05-02 14:50:01] DEBUG []
+[2020-05-02 14:50:01] DEBUG Array
+(
+    [limit] => 20
+    [offset] => 360
+)
+
+[2020-05-02 14:50:01] DEBUG Findparams: 
+[2020-05-02 14:50:01] DEBUG []
+[2020-05-02 14:50:01] DEBUG []
+[2020-05-02 14:50:01] DEBUG Array
+(
+    [limit] => 20
+    [offset] => 420
+)
+
+[2020-05-02 14:50:01] DEBUG Findparams: 
+[2020-05-02 14:50:01] DEBUG []
+[2020-05-02 14:50:01] DEBUG []
+[2020-05-02 14:50:01] DEBUG Array
+(
+    [limit] => 20
+    [offset] => 440
+)
+
+[2020-05-02 14:50:01] DEBUG Findparams: 
+[2020-05-02 14:50:01] DEBUG []
+[2020-05-02 14:50:01] DEBUG []
+[2020-05-02 14:50:01] DEBUG Array
+(
+    [limit] => 20
+    [offset] => 460
+)
+
+[2020-05-02 14:50:01] DEBUG Findparams: 
+[2020-05-02 14:50:01] DEBUG []
+[2020-05-02 14:50:01] DEBUG []
+[2020-05-02 14:50:01] DEBUG Array
+(
+    [limit] => 20
+    [offset] => 500
+)
+
+[2020-05-02 14:50:01] DEBUG Findparams: 
+[2020-05-02 14:50:01] DEBUG []
+[2020-05-02 14:50:01] DEBUG []
+[2020-05-02 14:50:01] DEBUG Array
+(
+    [limit] => 20
+    [offset] => 520
+)
+
+[2020-05-02 14:50:01] DEBUG Findparams: 
+[2020-05-02 14:50:01] DEBUG []
+[2020-05-02 14:50:01] DEBUG []
+[2020-05-02 14:50:02] DEBUG Array
+(
+    [limit] => 20
+    [offset] => 480
+)
+
+[2020-05-02 14:50:02] DEBUG Findparams: 
+[2020-05-02 14:50:02] DEBUG []
+[2020-05-02 14:50:02] DEBUG []
+[2020-05-02 14:50:02] DEBUG Array
+(
+    [limit] => 20
+    [offset] => 540
+)
+
+[2020-05-02 14:50:02] DEBUG Findparams: 
+[2020-05-02 14:50:02] DEBUG []
+[2020-05-02 14:50:02] DEBUG []
+[2020-05-02 14:50:02] DEBUG Array
+(
+    [limit] => 20
+    [offset] => 560
+)
+
+[2020-05-02 14:50:02] DEBUG Findparams: 
+[2020-05-02 14:50:02] DEBUG []
+[2020-05-02 14:50:02] DEBUG []
+[2020-05-02 14:50:02] DEBUG Array
+(
+    [limit] => 20
+    [offset] => 580
+)
+
+[2020-05-02 14:50:02] DEBUG Findparams: 
+[2020-05-02 14:50:02] DEBUG []
+[2020-05-02 14:50:02] DEBUG []
+[2020-05-02 14:50:03] DEBUG Array
+(
+    [limit] => 20
+    [offset] => 600
+)
+
+[2020-05-02 14:50:03] DEBUG Findparams: 
+[2020-05-02 14:50:03] DEBUG []
+[2020-05-02 14:50:03] DEBUG []
+[2020-05-02 14:50:03] DEBUG Array
+(
+    [limit] => 20
+    [offset] => 620
+)
+
+[2020-05-02 14:50:03] DEBUG Findparams: 
+[2020-05-02 14:50:03] DEBUG []
+[2020-05-02 14:50:03] DEBUG []
+[2020-05-02 14:50:03] DEBUG Array
+(
+    [limit] => 20
+    [offset] => 640
+)
+
+[2020-05-02 14:50:03] DEBUG Findparams: 
+[2020-05-02 14:50:03] DEBUG []
+[2020-05-02 14:50:03] DEBUG []
+[2020-05-02 14:50:03] DEBUG Array
+(
+    [limit] => 20
+    [offset] => 660
+)
+
+[2020-05-02 14:50:03] DEBUG Findparams: 
+[2020-05-02 14:50:03] DEBUG []
+[2020-05-02 14:50:03] DEBUG []
+[2020-05-02 14:50:04] DEBUG Array
+(
+    [limit] => 20
+    [offset] => 680
+)
+
+[2020-05-02 14:50:04] DEBUG Findparams: 
+[2020-05-02 14:50:04] DEBUG []
+[2020-05-02 14:50:04] DEBUG []
+[2020-05-02 14:50:05] DEBUG Array
+(
+    [limit] => 20
+    [offset] => 720
+)
+
+[2020-05-02 14:50:05] DEBUG Findparams: 
+[2020-05-02 14:50:05] DEBUG []
+[2020-05-02 14:50:05] DEBUG []
+[2020-05-02 14:50:05] DEBUG Array
+(
+    [limit] => 20
+    [offset] => 700
+)
+
+[2020-05-02 14:50:05] DEBUG Findparams: 
+[2020-05-02 14:50:05] DEBUG []
+[2020-05-02 14:50:05] DEBUG []
+[2020-05-02 14:50:06] DEBUG Array
+(
+    [limit] => 20
+    [offset] => 740
+)
+
+[2020-05-02 14:50:06] DEBUG Findparams: 
+[2020-05-02 14:50:06] DEBUG []
+[2020-05-02 14:50:06] DEBUG []
+[2020-05-02 14:50:06] DEBUG Array
+(
+    [limit] => 20
+    [offset] => 760
+)
+
+[2020-05-02 14:50:06] DEBUG Findparams: 
+[2020-05-02 14:50:06] DEBUG []
+[2020-05-02 14:50:06] DEBUG []
+[2020-05-02 14:50:06] DEBUG Array
+(
+    [limit] => 20
+    [offset] => 780
+)
+
+[2020-05-02 14:50:06] DEBUG Findparams: 
+[2020-05-02 14:50:06] DEBUG []
+[2020-05-02 14:50:06] DEBUG []
+[2020-05-02 14:50:06] DEBUG Array
+(
+    [limit] => 20
+    [offset] => 800
+)
+
+[2020-05-02 14:50:06] DEBUG Findparams: 
+[2020-05-02 14:50:06] DEBUG []
+[2020-05-02 14:50:06] DEBUG []
+[2020-05-02 14:50:07] DEBUG Array
+(
+    [limit] => 20
+    [offset] => 820
+)
+
+[2020-05-02 14:50:07] DEBUG Findparams: 
+[2020-05-02 14:50:07] DEBUG []
+[2020-05-02 14:50:07] DEBUG []
+[2020-05-02 14:51:48] DEBUG Array
+(
+    [limit] => 20
+    [offset] => 0
+)
+
+[2020-05-02 14:51:48] DEBUG Findparams: 
+[2020-05-02 14:51:48] DEBUG []
+[2020-05-02 14:51:48] DEBUG []

@@ -16,7 +16,7 @@ class cron
     private Database $database;
 
     private function __construct(){
-        include_once('settings\settings.php');
+        include_once('config\settings.php');
         $this->mongoClient = new Client("mongodb://".$settings['mongodb']['hostname'].":".$settings['mongodb']['port']);
         $this->garminClient = (new GarminConnect(array("username"=>$settings['garmin']['username'],"password"=>$settings['garmin']['password'])));
 

@@ -8,6 +8,7 @@ use dawguk\GarminConnect;
 use jsomhorst\garmin\Logger;
 use MongoDB\Client;
 use MongoDB\Database;
+use Psr\Container\ContainerInterface;
 use Slim\App;
 use Slim\Http\ServerRequest;
 use Slim\Http\Response;
@@ -16,17 +17,14 @@ class ActivityApiHandler implements ApiHandlerInterface
 {
     protected GarminConnect $garminClient;
     protected Database $database;
-    private Client $client;
-
-    public function __construct()
+    protected $container = null;
+    public function __construct(ContainerInterface $container, GarminConnect $garmin, Database $database)
     {
-        include_once('settings\settings.php');
-
-
-        $this->garminClient = (new GarminConnect(array("username"=>$settings['garmin']['username'],"password"=>$settings['garmin']['password'])))->jsondecode(false);
-        $this->client = new Client("mongodb://".$settings['mongodb']['hostname'].":".$settings['mongodb']['port']);
-        $this->database = $this->client->selectDatabase('garmin');
+        $this->container = $container;
+        $this->garminClient = $garmin;
+        $this->database = $database;
     }
+
 
     public static function addRoutes(App $app)
     {
@@ -57,7 +55,7 @@ class ActivityApiHandler implements ApiHandlerInterface
 
     private function getActivityCount(ServerRequest $request, Response $response, array $args)
     {
-        $json = ['entrycount'=>$this->database->selectCollection('activities')->count()];
+        $json = ['entrycount'=>$this->database->selectCollection('activities')->countDocuments()];
         $response->getBody()->write(json_encode($json));
         return $response;
     }

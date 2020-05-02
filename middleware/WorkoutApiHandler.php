@@ -10,10 +10,6 @@ use Slim\App;
 class WorkoutApiHandler extends ActivityApiHandler implements ApiHandlerInterface
 {
 
-    public function __construct()
-    {
-        parent::__construct();
-    }
 
 
     public static function addRoutes(App $app)
