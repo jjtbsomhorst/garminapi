@@ -4,10 +4,12 @@
         "slim/slim": "4.0",
         "slim/http": "^1.0",
         "slim/psr7": "^1.0",
-        "php-di/php-di": "^6.0",
         "mongodb/mongodb": "^1.7@dev",
         "apix/log": "dev-master",
-        "selective/config": "dev-master"
+        "selective/config": "dev-master",
+        "psr/container": "^1.0@dev",
+        "php-di/php-di": "dev-master",
+        "league/oauth2-server": "dev-master"
     },
     "minimum-stability": "dev",
     "autoload": {

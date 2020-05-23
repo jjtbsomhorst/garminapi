@@ -4,14 +4,16 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit52f214f94cdc446b3791aec2a0808007
+class ComposerStaticInit628fb9a4899f5d70bc25cd126f532c3f
 {
     public static $files = array (
+        '5255c38a0faeba867671b61dfda6d864' => __DIR__ . '/..' . '/paragonie/random_compat/lib/random.php',
         '7b11c4dc42b3b3023073cb14e519683c' => __DIR__ . '/..' . '/ralouphie/getallheaders/src/getallheaders.php',
+        'bd9634f2d41831496de0d3dfe4c94881' => __DIR__ . '/..' . '/symfony/polyfill-php56/bootstrap.php',
         '34122c0574b76bf21c9a8db62b5b9cf3' => __DIR__ . '/..' . '/cakephp/chronos/src/carbon_compat.php',
         '253c157292f75eb38082b5acb06f3f01' => __DIR__ . '/..' . '/nikic/fast-route/src/functions.php',
         '3a37ebac017bc098e9a86b35401e7a68' => __DIR__ . '/..' . '/mongodb/mongodb/src/functions.php',
-        'bbf73f3db644d3dced353b837903e74c' => __DIR__ . '/..' . '/php-di/php-di/src/DI/functions.php',
+        'b33e3d135e5d9e47d845c576147bda89' => __DIR__ . '/..' . '/php-di/php-di/src/functions.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -21,6 +23,9 @@ class ComposerStaticInit52f214f94cdc446b3791aec2a0808007
         ),
         'S' => 
         array (
+            'Symfony\\Polyfill\\Util\\' => 22,
+            'Symfony\\Polyfill\\Php56\\' => 23,
+            'SuperClosure\\' => 13,
             'Slim\\Tests\\' => 11,
             'Slim\\Psr7\\' => 10,
             'Slim\\Http\\' => 10,
@@ -33,16 +38,22 @@ class ComposerStaticInit52f214f94cdc446b3791aec2a0808007
             'Psr\\Http\\Server\\' => 16,
             'Psr\\Http\\Message\\' => 17,
             'Psr\\Container\\' => 14,
+            'PhpParser\\' => 10,
             'PhpDocReader\\' => 13,
         ),
         'M' => 
         array (
             'MongoDB\\' => 8,
         ),
+        'L' => 
+        array (
+            'League\\OAuth2\\Server\\' => 21,
+            'League\\Event\\' => 13,
+            'Lcobucci\\JWT\\' => 13,
+        ),
         'I' => 
         array (
             'Invoker\\' => 8,
-            'Interop\\Container\\' => 18,
         ),
         'F' => 
         array (
@@ -51,6 +62,7 @@ class ComposerStaticInit52f214f94cdc446b3791aec2a0808007
         ),
         'D' => 
         array (
+            'Defuse\\Crypto\\' => 14,
             'DI\\' => 3,
         ),
         'C' => 
@@ -67,6 +79,18 @@ class ComposerStaticInit52f214f94cdc446b3791aec2a0808007
         'jsomhorst\\garmin\\' => 
         array (
             0 => __DIR__ . '/../..' . '/',
+        ),
+        'Symfony\\Polyfill\\Util\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/polyfill-util',
+        ),
+        'Symfony\\Polyfill\\Php56\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/polyfill-php56',
+        ),
+        'SuperClosure\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/jeremeamia/superclosure/src',
         ),
         'Slim\\Tests\\' => 
         array (
@@ -106,6 +130,10 @@ class ComposerStaticInit52f214f94cdc446b3791aec2a0808007
         array (
             0 => __DIR__ . '/..' . '/psr/container/src',
         ),
+        'PhpParser\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser',
+        ),
         'PhpDocReader\\' => 
         array (
             0 => __DIR__ . '/..' . '/php-di/phpdoc-reader/src/PhpDocReader',
@@ -114,13 +142,21 @@ class ComposerStaticInit52f214f94cdc446b3791aec2a0808007
         array (
             0 => __DIR__ . '/..' . '/mongodb/mongodb/src',
         ),
+        'League\\OAuth2\\Server\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/league/oauth2-server/src',
+        ),
+        'League\\Event\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/league/event/src',
+        ),
+        'Lcobucci\\JWT\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/lcobucci/jwt/src',
+        ),
         'Invoker\\' => 
         array (
             0 => __DIR__ . '/..' . '/php-di/invoker/src',
-        ),
-        'Interop\\Container\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/container-interop/container-interop/src/Interop/Container',
         ),
         'Fig\\Http\\Message\\' => 
         array (
@@ -130,9 +166,13 @@ class ComposerStaticInit52f214f94cdc446b3791aec2a0808007
         array (
             0 => __DIR__ . '/..' . '/nikic/fast-route/src',
         ),
+        'Defuse\\Crypto\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/defuse/php-encryption/src',
+        ),
         'DI\\' => 
         array (
-            0 => __DIR__ . '/..' . '/php-di/php-di/src/DI',
+            0 => __DIR__ . '/..' . '/php-di/php-di/src',
         ),
         'Cake\\Chronos\\' => 
         array (
@@ -155,9 +195,9 @@ class ComposerStaticInit52f214f94cdc446b3791aec2a0808007
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit52f214f94cdc446b3791aec2a0808007::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit52f214f94cdc446b3791aec2a0808007::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit52f214f94cdc446b3791aec2a0808007::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit628fb9a4899f5d70bc25cd126f532c3f::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit628fb9a4899f5d70bc25cd126f532c3f::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit628fb9a4899f5d70bc25cd126f532c3f::$classMap;
 
         }, null, ClassLoader::class);
     }

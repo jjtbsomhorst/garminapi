@@ -8,11 +8,17 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/apix/log" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/cakephp/chronos" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/composer" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/container-interop/container-interop" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/dawguk/php-garmin-connect" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/defuse/php-encryption" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/fig/http-message-util" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/jeremeamia/superclosure" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/lcobucci/jwt" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/league/event" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/league/oauth2-server" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/mongodb/mongodb" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/nikic/fast-route" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/nikic/php-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/paragonie/random_compat" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/php-di/invoker" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/php-di/php-di" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/php-di/phpdoc-reader" />
@@ -27,6 +33,8 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/slim/http" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/slim/psr7" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/slim/slim" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/polyfill-php56" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/polyfill-util" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

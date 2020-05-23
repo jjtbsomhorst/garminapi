@@ -19,6 +19,8 @@ namespace dawguk\GarminConnect;
 
 use Exception;
 use jsomhorst\garmin\Logger;
+use Psr\Log\AbstractLogger;
+use Psr\Log\LoggerInterface;
 
 class Connector
 {
@@ -63,6 +65,8 @@ class Connector
             throw new Exception("Identifier isn't valid");
         }
         $this->strCookieFile = $this->strCookieDirectory . DIRECTORY_SEPARATOR . "GarminCookie_" . $strUniqueIdentifier;
+        Logger::setMinLevel('GarminConnect.log','debug');
+        Logger::log('GarminConnect.log')->warning(sprintf('Cookie file to use: %s',$this->strCookieFile));
         $this->refreshSession();
 
     }
@@ -95,16 +99,22 @@ class Connector
     */
     public function get($strUrl, $arrParams = array(), $bolAllowRedirects = true)
     {
+        Logger::log('GarminConnect.log')->debug('Do a GET request');
+
         if (null !== $arrParams && count($arrParams)) {
             $strUrl .= '?' . http_build_query($arrParams);
         }
-
+        Logger::log('GarminConnect.log')->debug(sprintf('url: %s',$strUrl));
         curl_setopt($this->objCurl, CURLOPT_URL, $strUrl);
         curl_setopt($this->objCurl, CURLOPT_FOLLOWLOCATION, (bool)$bolAllowRedirects);
         curl_setopt($this->objCurl, CURLOPT_CUSTOMREQUEST, 'GET');
 
         $strResponse = curl_exec($this->objCurl);
+        Logger::log('GarminConnect.log')->debug('Response:');
+        Logger::log('GarminConnect.log')->debug($strResponse);
         $this->arrCurlInfo = curl_getinfo($this->objCurl);
+        Logger::log('GarminConnect.log')->debug('Curl info: ');
+        Logger::log('GarminConnect.log')->debug(print_r($this->arrCurlInfo,true));
         $this->intLastResponseCode = $this->arrCurlInfo['http_code'];
         return $strResponse;
     }

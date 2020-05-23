@@ -3,6 +3,7 @@ namespace jsomhorst\garmin;
 require 'vendor/autoload.php';
 
 use dawguk\GarminConnect;
+use DI\ContainerBuilder;
 use MongoDB\Client;
 use MongoDB\Collection;
 use MongoDB\Database;
@@ -11,15 +12,19 @@ use MongoDB\Database;
 class cron
 {
 
-    private Client $mongoClient;
+
     private GarminConnect $garminClient;
     private Database $database;
+    private \DI\Container $container;
 
     private function __construct(){
-        include_once('config\settings.php');
-        $this->mongoClient = new Client("mongodb://".$settings['mongodb']['hostname'].":".$settings['mongodb']['port']);
-        $this->garminClient = (new GarminConnect(array("username"=>$settings['garmin']['username'],"password"=>$settings['garmin']['password'])));
 
+        $containerBuilder = new ContainerBuilder();
+        $containerBuilder->addDefinitions('config/container.php');
+        $this->container = $containerBuilder->build();
+        $this->garminClient = $this->container->get(GarminConnect::class);
+        $this->garminClient->jsonDecode(true);
+        $this->database = $this->container->get(Database::class);
     }
 
     private function importActivities(){
@@ -27,6 +32,7 @@ class cron
         $activityDetailsCollection = $this->database->selectCollection('activityDetails');
         $activitySummaryCollection = $this->database->selectCollection('activitySummary');
         $splitCollection = $this->database->selectCollection('activitySplits');
+
         if(is_null($activityCollection)){
             Logger::log('cron.log')->warning('Unable to load activities collection');
             return;
@@ -43,26 +49,17 @@ class cron
         Logger::log('cron.log')->debug('Start running the cron');
 
         try {
-            $userData = $this->garminClient->getUser();
 
-            $database = $this->mongoClient->selectDatabase('garmin');
-            if(empty($database)){
-                Logger::log('cron.log')->warning('Unable to retrieve \'garmin\' database');
-                return;
-            }
-            $this->database = $database;
+            $userData = $this->garminClient->getUser();
             $this->importActivities();
-            $this->importRecords();
             $this->importWorkouts();
 
-            Logger::log('cron.log')->info('Done importing');
 
         } catch (GarminConnect\exceptions\UnexpectedResponseCodeException $e) {
             Logger::log('cron.log')->error($e->getMessage());
             return;
         }
-
-
+        Logger::log('cron.log')->info('Done importing');
 
     }
 
@@ -109,22 +106,23 @@ class cron
                     $summaryEntry = $this->garminClient->getActivitySummary($activity->activityId);
                     $activitySummaryCollection->insertOne($summaryEntry);
 
-                    $summaryEntry = $this->garminClient->getActivityDetails($activity->activityId);
-                    $activityDetailsCollection->insertOne($summaryEntry);
-                }else{
+                    $detailEntry = $this->garminClient->getActivityDetails($activity->activityId);
+                    $activityDetailsCollection->insertOne($detailEntry);
+                }
+                else{
                     Logger::log('cron.log')->debug('Check if activity has been updated on garmin.');
                     $garminSummaryEntry = $this->garminClient->getActivitySummary($activity->activityId);
                     $summaryEntry = $activitySummaryCollection->findOne($findQuery);
                     if($garminSummaryEntry->metadataDTO->lastUpdateDate !== $summaryEntry->metadataDTO->lastUpdateDate){
+
+                        $activitySummaryCollection->replaceOne($findQuery,$summaryEntry);
+
                         Logger::log('cron.log')->debug('Data has been changed on garmin');
                         $splits = $this->garminClient->getActivitySplits($activity->activityId);
                         $splitCollection->replaceOne($findQuery,$splits);
 
-                        $summaryEntry = $this->garminClient->getActivitySummary($activity->activityId);
-                        $activitySummaryCollection->replaceOne($findQuery,$summaryEntry);
-
-                        $summaryEntry = $this->garminClient->getActivityDetails($activity->activityId);
-                        $activityDetailsCollection->replaceOne($findQuery,$summaryEntry);
+                        $detailsEntry = $this->garminClient->getActivityDetails($activity->activityId);
+                        $activityDetailsCollection->replaceOne($findQuery,$detailsEntry);
                     }
                 }
             }

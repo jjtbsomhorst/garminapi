@@ -1,3 +1,3 @@
 <?php
 require 'vendor/autoload.php';
-require_once "config/api.php";
+require_once "api/api.php";
