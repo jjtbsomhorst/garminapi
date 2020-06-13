@@ -23,12 +23,14 @@ class Logger
 
     private static function getLogger($filename) : AbstractLogger{
         if(!array_key_exists($filename,self::$logs)){
+            echo sprintf("Logger not found yet");
             $path = self::defaultPath.$filename;
             $l = new Log\Logger\File($path);
-            $l->setMinLevel('debug');
+            $l->setMinLevel('info');
             $l->setCascading(false);
             $l->setDeferred(false);      // postpone/accumulate logs processing
             self::$logs[$filename] = $l;
+
         }
         return self::$logs[$filename];
     }

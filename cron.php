@@ -28,6 +28,7 @@ class cron
     }
 
     private function importActivities(){
+        Logger::log('cron.log')->info('Start Import activities');
         $activityCollection = $this->database->selectCollection('activities');
         $activityDetailsCollection = $this->database->selectCollection('activityDetails');
         $activitySummaryCollection = $this->database->selectCollection('activitySummary');
@@ -86,7 +87,7 @@ class cron
     }
 
     private function updateActivities(Collection $activityCollection,Collection $activityDetailsCollection, Collection $splitCollection, Collection $activitySummaryCollection){
-        Logger::log('cron.log')->debug('Check if we have updates');
+        Logger::log('cron.log')->info('Update activities');
         $count = $this->garminClient->getActivityCount()->totalCount;
         $importCount = 0;
         $intStart = 0;

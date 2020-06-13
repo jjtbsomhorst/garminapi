@@ -65,7 +65,6 @@ class Connector
             throw new Exception("Identifier isn't valid");
         }
         $this->strCookieFile = $this->strCookieDirectory . DIRECTORY_SEPARATOR . "GarminCookie_" . $strUniqueIdentifier;
-        Logger::setMinLevel('GarminConnect.log','debug');
         Logger::log('GarminConnect.log')->warning(sprintf('Cookie file to use: %s',$this->strCookieFile));
         $this->refreshSession();
 
