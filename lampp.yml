@@ -1,0 +1,56 @@
+version: '3'
+
+services:
+  db:
+    image: mariadb:10.1
+    environment:
+      MYSQL_ROOT_PASSWORD: ANI7c2TuKclS5mu1298I
+    ports:
+      - 3306:3306
+    restart: always
+    networks:
+      - garmin
+    volumes:
+      - ./mysql:/var/lib/mysql
+  web:
+    image: php:7.4.5-apache
+    depends_on:
+      - db
+      - mongo
+    volumes:
+      - ./www:/var/www/html/
+    ports:
+      - "80:80"
+    stdin_open: true
+    tty: true
+    restart: always
+    networks:
+      - garmin
+    command:
+      RUN apt-get update
+      RUN apt-get upgrade -y
+      RUN docker-php-ext-install pdo pdo_mysql mysqli
+      RUN apt-get install  -y openssl libssl-dev libcurl4-openssl-dev
+      RUN pecl install mongodb-1.6.0
+      RUN docker-php-ext-enable mongodb.so
+      RUN a2enmod rewrite
+  mongo:
+    image: mongo
+    restart: always
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: admin
+      MONGO_INITDB_ROOT_PASSWORD: t3uEtua7Y2asQXhdxDoQ
+    ports:
+      - 27017:27017
+      - 8080:8080
+    networks:
+      - garmin
+      - unifi
+    volumes:
+      - mongo-data:/data/db
+networks:
+  garmin:
+  unifi:
+
+volumes:
+  mongo-data:

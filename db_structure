@@ -1,0 +1,18 @@
+activities
+activityDetails
+activitySplits
+activitySummary
+user
+workouts
+
+view
+    WorkoutSummary
+        [{
+            "$group":{
+                "_id":{"test":1"},
+                "totalDistance":{"$sum":"$distance"},
+                "totalCalories":{"$sum":"$calories"},
+                "totalWorkouts":{"$sum":1},
+                "totalDuration":{"$sum":"$duration"}
+            }
+        }]
